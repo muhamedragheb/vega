@@ -11,6 +11,7 @@ namespace vega.Mapping
             // Domain To Resource(DTO)
             CreateMap<Make, MakeResource>();
             CreateMap<Model, ModelResource>();
+            CreateMap<Feature, FeatureResource>();
         }
     }
 }
